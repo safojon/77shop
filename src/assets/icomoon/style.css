@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?b7tn4f');
+  src:  url('fonts/icomoon.eot?b7tn4f#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?b7tn4f') format('truetype'),
+    url('fonts/icomoon.woff?b7tn4f') format('woff'),
+    url('fonts/icomoon.svg?b7tn4f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check-mark:before {
+  content: "\e91d";
+}
+.icon-eye-closed:before {
+  content: "\e90b";
+}
+.icon-eye-open:before {
+  content: "\e91c";
+}
+.icon-liked:before {
+  content: "\e905";
+  color: #f00;
+}
+.icon-like:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-heart:before {
+  content: "\e907";
+}
+.icon-pc-mobile:before {
+  content: "\e908";
+}
+.icon-img-2:before {
+  content: "\e909";
+}
+.icon-jewelry:before {
+  content: "\e90a";
+}
+.icon-grinder:before {
+  content: "\e90c";
+}
+.icon-shoes:before {
+  content: "\e90d";
+}
+.icon-repair:before {
+  content: "\e90e";
+}
+.icon-vacation:before {
+  content: "\e90f";
+}
+.icon-car-repair:before {
+  content: "\e910";
+}
+.icon-car:before {
+  content: "\e911";
+}
+.icon-motorcycle:before {
+  content: "\e912";
+}
+.icon-plant:before {
+  content: "\e913";
+}
+.icon-Component-14:before {
+  content: "\e914";
+}
+.icon-bag:before {
+  content: "\e915";
+}
+.icon-builder:before {
+  content: "\e916";
+}
+.icon-bigbag:before {
+  content: "\e917";
+}
+.icon-boy:before {
+  content: "\e918";
+}
+.icon-refrigerator:before {
+  content: "\e919";
+}
+.icon-img:before {
+  content: "\e91a";
+}
+.icon-girl:before {
+  content: "\e91b";
+}
+.icon-search:before {
+  content: "\e900";
+}
+.icon-stroke:before {
+  content: "\e901";
+}
+.icon-blue-heart:before {
+  content: "\e902";
+  color: #388ff3;
+}
+.icon-black-heart:before {
+  content: "\e903";
+}
+.icon-exit:before {
+  content: "\e904";
+}
