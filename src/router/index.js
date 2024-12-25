@@ -20,8 +20,8 @@ const router = createRouter({
         //     component: () => import("@/pages/Category/CategoryId.vue"),
         // },
         {
-            path: "/products/list",
-            name: "product-lists",
+            path: "/products/",
+            name: "products",
             meta: {
                 layout: "default",
             },

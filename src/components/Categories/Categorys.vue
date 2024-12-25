@@ -86,10 +86,10 @@ const closeSearchInputModal = () => {
       <span class="mt-1 icon-search text-[rgba(213,216,219,1)] absolute left-[13px]"></span>
       <input
         class="max-md:w-[335px] w-[580px] h-[60px] pl-10 border border-[rgba(234,237,240,1)] rounded-[5px] placeholder-gray-400 focus:border-black"
-        type="text" placeholder="Что вы ищите?" v-model="searchInputVal" @click="openSearchInputModal">
+        type="text" placeholder="Что вы ищите?" v-model="searchInputVal">
       <button
         class="w-[107px] h-[44px] text-[#ffffff] bg-[black] rounded-[6px] absolute right-[8px] font-semibold text-[14px] leading-[20px] hover:text-[black] hover:bg-white hover:border-2 hover:border-black"
-        @click="openSearchInputModal">
+        >
         Поиск
       </button>
     </div>

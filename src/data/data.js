@@ -130,48 +130,132 @@ export const Categories = [
 export const Countrys = [
   {
     id: 1,
-    name: "г. Ташкент",
+    name: "Город Ташкент",
   },
   {
     id: 2,
-    name: "г. Самарканд",
+    name: "Хорезмская область",
+  },
+  {
+    id: 3,
+    name: "Джизакская область",
+  },
+  {
+    id: 4,
+    name: "Кашкадарьинская область",
+  },
+  {
+    id: 5,
+    name: "Навоийская область",
+  },
+  {
+    id: 6,
+    name: "Наманганская область",
+  },
+  {
+    id: 7,
+    name: "Самаркандская область",
+  },
+  {
+    id: 8,
+    name: "Сурхандарьинская область",
+  },
+  {
+    id: 9,
+    name: "Ташкентская область",
+  },
+  {
+    id: 10,
+    name: "Ферганская область",
+  },
+  {
+    id: 11,
+    name: "Андижанская область",
   },
 ];
 
 export const Citys = [
   {
     id: 1,
-    name: "Акдарьинский район",
+    country: 1,
+    name: "Юнусабадский район",
   },
   {
     id: 2,
-    name: "Булунгурский район",
+    country: 1,
+    name: "Учтепинский район",
   },
   {
     id: 3,
-    name: "Джамбайский район",
+    country: 1,
+    name: "Бектемирский район",
   },
   {
     id: 4,
-    name: "Иштыханский район",
+    country: 2,
+    name: "Ургенчский район",
   },
   {
     id: 5,
-    name: "Каттакурганский район",
+    country: 2,
+    name: "Ханкинский район",
   },
   {
-    id: 5,
-    name: "Кошрабадский район",
+    id: 6,
+    country: 2,
+    name: "Янгиарыкский район",
   },
   {
-    id: 5,
-    name: "Нарпайский район",
+    id: 7,
+    country: 3,
+    name: "Арнасайский район",
+  },
+  {
+    id: 8,
+    country: 3,
+    name: "Бахмальский район",
+  },
+  {
+    id: 9,
+    country: 3,
+    name: "Даштабадский район",
+  },
+  {
+    id: 10,
+    country: 4,
+    name: "Дехканабадский район",
+  },
+  {
+    id: 11,
+    country: 4,
+    name: "Гузарский район",
+  },
+  {
+    id: 12,
+    country: 4,
+    name: "Каршинский район",
+  },
+  {
+    id: 13,
+    country: 5,
+    name: "Канимехский район",
+  },
+  {
+    id: 14,
+    country: 5,
+    name: "Карманинский район",
+  },
+  {
+    id: 15,
+    country: 5,
+    name: "Навбахорский район",
   },
 ];
 
 export const Products = [
   {
     id: 1,
+    city: 1,
     photo: new URL("../../public/images/1.png", import.meta.url).href,
     country: "г. Ташкент",
     name: "Кепки Corneliani Diamond for him edition.",
@@ -182,6 +266,7 @@ export const Products = [
   },
   {
     id: 2,
+    city: 1,
     photo: new URL("../../public/images/2.png", import.meta.url).href,
     country: "г. Самарканд",
     name: "Chevrolet Onix 1.2 Turbo в наличии",
@@ -192,6 +277,7 @@ export const Products = [
   },
   {
     id: 3,
+    city: 1,
     photo: new URL("../../public/images/3.png", import.meta.url).href,
     country: "г. Ташкент",
     name: "7Saber Trucker Cap",

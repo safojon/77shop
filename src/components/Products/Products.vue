@@ -48,7 +48,7 @@ onMounted(() => {
         :country="product.country" :name="product.name" :date="product.date" :number="product.number"
         :price="product.price" :currency="product.currency" />
     </div>
-    <router-link to="/products/list">
+    <router-link to="/products">
       <button
         class="px-[25px] gap-[10px] flex items-center hover:border-[rgba(214,214,214,0.54)] border-[2px] border-[rgba(214,214,214,0.5)] hover:bg-white mt-[20px] w-auto h-[44px] bg-[rgba(234,237,240,1)] rounded-[100px] text-[rgba(22,25,29,1)] font-semibold">
         Загрузить больше
