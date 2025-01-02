@@ -44,9 +44,11 @@ onMounted(() => {
       <LoadingCard type="product" v-for="i in 12" :key="i" />
     </div>
     <div v-else class="grid pb-10 mt-10 max-md:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-x-5 gap-y-5">
-      <Prodect v-for="product in filterProducts" :key="product.id" :id="product.id" :photo="product.photo"
-        :country="product.country" :name="product.name" :date="product.date" :number="product.number"
-        :price="product.price" :currency="product.currency" />
+      <div v-for="product in filterProducts" :key="product.id">
+        <Prodect :id="product.id" type="grid" :photo="product.photo" :country="product.country" :name="product.name"
+          :description="product.description" :date="product.date" :number="product.number" :price="product.price"
+          :currency="product.currency" />
+      </div>
     </div>
     <router-link to="/products">
       <button

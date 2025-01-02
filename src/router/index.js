@@ -11,14 +11,14 @@ const router = createRouter({
             },
             component: () => import("../pages/Base/HomePage.vue"),
         },
-        // {
-        //     path: "/category/:id",
-        //     name: "category-id",
-        //     meta: {
-        //         layout: "default",
-        //     },
-        //     component: () => import("@/pages/Category/CategoryId.vue"),
-        // },
+        {
+            path: "/product/:id",
+            name: "product-id",
+            meta: {
+                layout: "default",
+            },
+            component: () => import("../pages/Products/Product.vue"),
+        },
         {
             path: "/products/",
             name: "products",
@@ -27,14 +27,14 @@ const router = createRouter({
             },
             component: () => import("../pages/Category/ProductList.vue"),
         },
-        // {
-        //     path: "/favourites",
-        //     name: "favourites",
-        //     meta: {
-        //         layout: "default",
-        //     },
-        //     component: () => import("@/pages/Products/ProductFavourite.vue"),
-        // },
+        {
+            path: "/terms-of-use",
+            name: "terms of use",
+            meta: {
+                layout: "default",
+            },
+            component: () => import("../pages/Terms/index.vue"),
+        },
         // {
         //     path: "/pages/:slug",
         //     name: "siteDirection",

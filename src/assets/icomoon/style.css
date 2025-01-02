@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?b7tn4f');
-  src:  url('fonts/icomoon.eot?b7tn4f#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?b7tn4f') format('truetype'),
-    url('fonts/icomoon.woff?b7tn4f') format('woff'),
-    url('fonts/icomoon.svg?b7tn4f#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?20bzgk');
+  src:  url('fonts/icomoon.eot?20bzgk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?20bzgk') format('truetype'),
+    url('fonts/icomoon.woff?20bzgk') format('woff'),
+    url('fonts/icomoon.svg?20bzgk#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-menu:before {
+  content: "\e920";
+}
+.icon-colum:before {
+  content: "\e921";
+}
+.icon-arrow:before {
+  content: "\e91f";
+}
 .icon-check-mark:before {
   content: "\e91d";
 }
@@ -101,6 +110,9 @@
 }
 .icon-girl:before {
   content: "\e91b";
+}
+.icon-location:before {
+  content: "\e91e";
 }
 .icon-search:before {
   content: "\e900";
